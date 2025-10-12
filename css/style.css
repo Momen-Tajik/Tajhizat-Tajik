@@ -3,6 +3,8 @@ body
     margin: 0;
 
 }
+
+/* navbar */
 .hidden
 {
     display: none;
@@ -54,5 +56,36 @@ body
     .desktopnavbar
     {
         display: none;
+    }
+}
+
+/* header */
+
+.myHeader {
+    display: flex;
+    justify-content: space-between; /* فاصله بین دو div */
+    gap: 40px; /* فاصله اضافی بین‌شان */
+    margin: 50px;
+}
+
+.headerItems {
+    justify-content: center; /* وسط‌چین افقی محتوا */
+    align-items: center; /* وسط‌چین عمودی محتوا */
+    border-radius: 20px;
+}
+
+.headerImage {
+    width: 450px;
+    border-radius: 20px;
+    height: auto; /* حفظ تناسب تصویر */
+    object-fit: cover; /* برش درست تصویر */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* جلوه‌ی حرفه‌ای‌تر */
+}
+
+@media(max-width:800px)
+{
+    .myHeader
+    {
+        flex-direction: column;
     }
 }

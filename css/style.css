@@ -1,7 +1,13 @@
+@font-face {
+    font-family: myFont;
+    src: url("../asstes/fonts/vazir-font-v16.1.0/Vazir-Medium.ttf");
+    font-weight: bold;
+  }
+
 body
 {
     margin: 0;
-
+    font-family: "myFont";
 }
 
 /* navbar */

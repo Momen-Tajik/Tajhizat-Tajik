@@ -13,3 +13,17 @@ navBtn.addEventListener("click", () => {
     }
 });
 
+let countInput = document.getElementById("countInput");
+let basePriceShow = document.getElementById("basePriceShow");
+
+countInput.addEventListener("change", () => {
+
+  let basePrice = Number(document.getElementById("basePrice").value);
+  let count = Number(countInput.value);
+
+  if (count == 1) {
+    basePriceShow.innerHTML = `قیمت نهایی: ${basePrice.toLocaleString()}`;
+  } else {
+    basePriceShow.innerHTML = `قیمت نهایی: ${(basePrice * count).toLocaleString()}`;
+  }
+});

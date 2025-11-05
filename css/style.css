@@ -27,7 +27,8 @@ a
 }
 .nav
 {
-    background-color: #FFFFFF;
+    background-color: #1e1e1ed4;
+    color: whitesmoke;
 
 }
 .desktopnavbar
@@ -318,8 +319,10 @@ a
   }
 
 
-  /* Product page *//* Product page *//* Product page *//* Product page *//* Product page */
-  .productHeader {
+  
+/* Product page *//* Product page *//* Product page *//* Product page *//* Product page */
+  
+.productHeader {
   }
   
   .product {
@@ -352,9 +355,19 @@ a
   }
   
   .features {
+
   }
   
+  .features ul li{
+    margin-bottom: 20px;
+  }
+
   .purchase-section {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
   
   .price {

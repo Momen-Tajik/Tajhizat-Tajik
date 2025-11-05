@@ -327,16 +327,16 @@ a
   
   .product {
     display: flex;
-    flex-direction: row; /* عکس در سمت راست */
+    flex-direction: row; 
     justify-content: flex-start;
     align-items: flex-start;
     margin: 30px;
-    gap: 20px; /* فاصله بین عکس و محتوا */
+    gap: 20px; 
   }
   
-  /* بخش تصویر */
+ 
   .product-image {
-    flex: 0 0 50%; /* عرض تقریبی ۴۰٪ */
+    flex: 0 0 50%; 
   }
   
   .product-image img {
@@ -346,7 +346,6 @@ a
     border-radius: 8px;
   }
   
-  /* بخش متن */
   .product-content {
     flex: 1;
   }
@@ -376,7 +375,7 @@ a
   .quantity {
     display: flex;
     align-items: center;
-    gap: 10px; /* فاصله بین برچسب و input */
+    gap: 10px; 
   }
   
   .quantity label {
@@ -396,12 +395,11 @@ a
   }
   
   .quantity-input:focus {
-    border-color: #007bff; /* رنگ آبی هنگام فوکوس */
+    border-color: #007bff; 
     box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
     outline: none;
   }
   
-  /* واکنش‌گرایی برای موبایل */
   @media (max-width: 1200px) {
     .product {
       flex-direction: column;
